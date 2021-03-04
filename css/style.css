@@ -67,6 +67,13 @@ main{
     box-shadow: 0 10px 10px rgba(84, 158, 242, .2);
     max-width: 22rem;    
     max-height: 16rem;
+    cursor: pointer;
+}
+
+.card:active{
+    position: relative;
+    top: 10px;
+    box-shadow: 0 0 10px rgba(84, 158, 242, .2);
 }
 
 .supervisor{
